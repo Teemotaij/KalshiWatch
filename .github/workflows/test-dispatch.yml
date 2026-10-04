@@ -1,0 +1,22 @@
+## One-off end-to-end pipe test: fires a kw-start for a FAKE match (999999). The private
+## side will look it up, refuse with not_in_cohort, and log a skip — proving the token and
+## the whole dispatch chain with zero order risk. Safe to delete after the first green run.
+name: test dispatch
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: fire a kw-start for a fake match
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+        run: |
+          curl -sS -f -X POST \
+            -H "authorization: Bearer $DISPATCH_TOKEN" \
+            -H "x-github-api-version: 2022-11-28" \
+            https://api.github.com/repos/Teemotaij/TennisGeneralModel/dispatches \
+            -d '{"event_type":"kw-start","client_payload":{"match_id":999999,"side":1,"ticker":"PIPETEST","start_at":"2026-10-04T14:00:00Z","window_move_c":9,"window_trades":12}}'
+          echo "dispatch accepted by GitHub"
