@@ -49,12 +49,21 @@ def test_the_window_is_ten_minutes_by_the_clock():
     assert watch.detect_start(watch.minute_medians(slow, "yes")) is None
 
 
-def test_buy_triggers_at_70_only_after_the_start():
-    # 72c printed BEFORE the start minute must not count; the first >=70 at/after it does
-    t = tape((0, 72), (5, 50), (6, 69), (7, 71))
+def test_buy_triggers_at_70_only_fifteen_minutes_after_the_start():
+    # TJ 4 Oct: never add before start+15min. 72c pre-start and 71c at start+7 must both be
+    # ignored; the first >=70c minute at/after start+15 is the trigger. A 70c touch inside the
+    # fifteen does not arm anything for later.
+    assert watch.BUY_WAIT_MIN == 15
+    t = tape((0, 72), (5, 50), (12, 71), (19, 69), (21, 73))
     meds = watch.minute_medians(t, "yes")
-    b = watch.detect_buy(meds, "2026-10-04T10:05:00Z")
-    assert b and b["at"] == "2026-10-04T10:07:00Z" and b["tape_px"] == 71
+    b = watch.detect_buy(meds, "2026-10-04T10:05:00Z")       # gate opens 10:20
+    assert b and b["at"] == "2026-10-04T10:21:00Z" and b["tape_px"] == 73
+
+
+def test_buy_at_exactly_the_gate_minute_fires():
+    t = tape((20, 70))
+    b = watch.detect_buy(watch.minute_medians(t, "yes"), "2026-10-04T10:05:00Z")
+    assert b and b["at"] == "2026-10-04T10:20:00Z"
 
 
 def test_v2_dollar_prices_are_parsed_not_defaulted():

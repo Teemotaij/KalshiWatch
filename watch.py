@@ -43,7 +43,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 # Stdlib-only on the Actions runner, where the system certs just work. macOS framework Python
 # ships without them, so local testing borrows certifi's bundle when it happens to be around.
@@ -62,6 +62,10 @@ START_WINDOW_MIN = 10     # §1 detection window...
 START_MOVE_C = 8          # ...cumulative per-minute median movement inside it...
 START_TRADES = 10         # ...on at least this many trades
 BUY_TRIGGER_C = 70        # §3
+BUY_WAIT_MIN = 15         # TJ 4 Oct, second ruling: never add before start+15min. The detected
+                          # start is a tape inference; a delay, a false early detection or a
+                          # pre-match reprice all look most dangerous in the first minutes, and
+                          # fifteen of them are cheap insurance on a momentum signal
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 STATE = os.path.join(ROOT, "state.json")
@@ -159,8 +163,13 @@ def detect_start(meds: list[tuple[str, float, int]]) -> dict | None:
 
 
 def detect_buy(meds: list[tuple[str, float, int]], start_at: str) -> dict | None:
-    """§3 trigger: first minute at/after the detected start whose median >= 70c."""
-    floor = start_at[:16]
+    """§3 trigger: first minute at/after detected start + BUY_WAIT_MIN whose median >= 70c.
+
+    A >=70c minute INSIDE the first fifteen does not arm anything for later — the trigger is
+    "the market says 70+ once the match is settled in", not "it touched 70 early and stayed".
+    """
+    t0 = datetime.fromisoformat(start_at.replace("Z", "+00:00"))
+    floor = (t0 + timedelta(minutes=BUY_WAIT_MIN)).strftime("%Y-%m-%dT%H:%M")
     for m, med, n in meds:
         if m >= floor and med >= BUY_TRIGGER_C:
             return dict(at=m + ":00Z", tape_px=med)
