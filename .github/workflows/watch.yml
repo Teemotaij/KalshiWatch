@@ -1,0 +1,34 @@
+# One long-lived watcher job, restarted by the cron. watch.py loops on a 60s clock and exits
+# itself after ~5.5h (inside the 6h job cap); the */15 cron notices nothing is running and
+# starts the next one, so a crash costs at most 15 minutes of tape. The concurrency group
+# keeps it to a single watcher: a cron firing mid-job queues one run and GitHub supersedes the
+# rest, so there is never a second writer on ticks.csv/state.json.
+name: watch
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - name: identity for the tick commits
+        run: |
+          git config user.name "kalshi-watch"
+          git config user.email "actions@users.noreply.github.com"
+      # Stdlib only — no pip step, nothing to install, nothing to break.
+      - name: watch
+        env:
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+          PRIVATE_REPO: Teemotaij/TennisGeneralModel
+        run: python3 watch.py
