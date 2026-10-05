@@ -1,23 +1,4 @@
 {
- "generated_at": "2026-10-04 13:13:00",
- "picks": [
-  {
-   "match_id": 995225,
-   "side": 2,
-   "ticker": "KXWTAMATCH-26SEP28GOLKOR-GOL",
-   "market_side": "no"
-  },
-  {
-   "match_id": 995228,
-   "side": 2,
-   "ticker": "KXWTAMATCH-26SEP28SHEKUD-SHE",
-   "market_side": "no"
-  },
-  {
-   "match_id": 996937,
-   "side": 2,
-   "ticker": "KXATPCHALLENGERMATCH-26OCT04SINRAP-SIN",
-   "market_side": "no"
-  }
- ]
+ "generated_at": "2026-10-05 09:44:38",
+ "picks": []
 }
