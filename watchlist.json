@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-06 20:32:37",
+ "generated_at": "2026-10-06 21:29:02",
  "picks": [
   {
    "match_id": 997648,
@@ -17,6 +17,12 @@
    "match_id": 998247,
    "side": 2,
    "ticker": "KXATPMATCH-26OCT07MOLCIN-MOL",
+   "market_side": "no"
+  },
+  {
+   "match_id": 998249,
+   "side": 2,
+   "ticker": "KXATPMATCH-26OCT07MANBAS-MAN",
    "market_side": "no"
   },
   {
