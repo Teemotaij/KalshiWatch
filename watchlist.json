@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-05 21:02:19",
+ "generated_at": "2026-10-06 02:10:26",
  "picks": [
   {
    "match_id": 996878,
@@ -17,6 +17,12 @@
    "match_id": 997806,
    "side": 1,
    "ticker": "KXATPCHALLENGERMATCH-26OCT06KACBRO-BRO",
+   "market_side": "no"
+  },
+  {
+   "match_id": 997904,
+   "side": 2,
+   "ticker": "KXATPCHALLENGERMATCH-26OCT06GADVIV-GAD",
    "market_side": "no"
   }
  ]
