@@ -1,10 +1,16 @@
 {
- "generated_at": "2026-10-06 11:28:07",
+ "generated_at": "2026-10-06 19:02:45",
  "picks": [
   {
    "match_id": 997648,
    "side": 1,
    "ticker": "KXATPMATCH-26OCT06FERCIL-CIL",
+   "market_side": "no"
+  },
+  {
+   "match_id": 998247,
+   "side": 2,
+   "ticker": "KXATPMATCH-26OCT07MOLCIN-MOL",
    "market_side": "no"
   }
  ]
