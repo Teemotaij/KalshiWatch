@@ -1,6 +1,12 @@
 {
- "generated_at": "2026-10-07 02:57:31",
+ "generated_at": "2026-10-07 04:35:00",
  "picks": [
+  {
+   "match_id": 997647,
+   "side": 1,
+   "ticker": "KXATPMATCH-26OCT06KOVBER-BER",
+   "market_side": "no"
+  },
   {
    "match_id": 997648,
    "side": 1,
