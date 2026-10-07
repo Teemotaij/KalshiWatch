@@ -31,6 +31,14 @@
    "window_trades": 20
   }
  },
+ "997647/1": {
+  "start": {
+   "detected_at": "2026-10-07T04:40:43.316681+00:00",
+   "start_at": "2026-10-07T04:07:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 56
+  }
+ },
  "997648/1": {
   "last_logged": "2026-10-07T04:31"
  },
