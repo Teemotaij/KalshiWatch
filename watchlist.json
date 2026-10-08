@@ -1,16 +1,10 @@
 {
- "generated_at": "2026-10-08 13:36:32",
+ "generated_at": "2026-10-08 15:01:36",
  "picks": [
   {
    "match_id": 998649,
    "side": 1,
    "ticker": "KXATPMATCH-26OCT09GEAHUM-HUM",
-   "market_side": "no"
-  },
-  {
-   "match_id": 998698,
-   "side": 2,
-   "ticker": "KXATPCHALLENGERMATCH-26OCT08DZUSHE-DZU",
    "market_side": "no"
   }
  ]
