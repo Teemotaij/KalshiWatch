@@ -1,10 +1,16 @@
 {
- "generated_at": "2026-10-08 05:52:42",
+ "generated_at": "2026-10-08 06:47:38",
  "picks": [
   {
    "match_id": 997661,
    "side": 1,
    "ticker": "KXATPMATCH-26OCT06VANMER-MER",
+   "market_side": "no"
+  },
+  {
+   "match_id": 997662,
+   "side": 1,
+   "ticker": "KXATPMATCH-26OCT06TIRMED-MED",
    "market_side": "no"
   },
   {
