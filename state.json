@@ -209,12 +209,20 @@
   }
  },
  "998400/2": {
-  "last_logged": "2026-10-08T11:52",
+  "last_logged": "2026-10-08T11:58",
   "start": {
    "detected_at": "2026-10-08T11:35:23.607104+00:00",
    "start_at": "2026-10-08T11:10:00Z",
    "window_move_c": 13.5,
    "window_trades": 28
+  }
+ },
+ "998698/2": {
+  "start": {
+   "detected_at": "2026-10-08T11:53:23.694002+00:00",
+   "start_at": "2026-10-08T11:38:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 13
   }
  }
 }
