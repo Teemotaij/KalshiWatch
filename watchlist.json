@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-08 06:47:38",
+ "generated_at": "2026-10-08 09:05:06",
  "picks": [
   {
    "match_id": 997661,
@@ -8,15 +8,9 @@
    "market_side": "no"
   },
   {
-   "match_id": 997662,
-   "side": 1,
-   "ticker": "KXATPMATCH-26OCT06TIRMED-MED",
-   "market_side": "no"
-  },
-  {
-   "match_id": 998255,
-   "side": 1,
-   "ticker": "KXATPMATCH-26OCT07TOMARN-ARN",
+   "match_id": 997695,
+   "side": 2,
+   "ticker": "KXATPMATCH-26OCT06GIRBAE-GIR",
    "market_side": "no"
   },
   {
