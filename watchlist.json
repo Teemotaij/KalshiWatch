@@ -1,6 +1,12 @@
 {
- "generated_at": "2026-10-08 20:00:01",
+ "generated_at": "2026-10-09 04:37:35",
  "picks": [
+  {
+   "match_id": 998648,
+   "side": 1,
+   "ticker": "KXATPMATCH-26OCT09MANCOB-COB",
+   "market_side": "no"
+  },
   {
    "match_id": 998649,
    "side": 1,
