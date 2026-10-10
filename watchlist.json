@@ -1,12 +1,6 @@
 {
- "generated_at": "2026-10-10 02:12:47",
+ "generated_at": "2026-10-10 10:00:16",
  "picks": [
-  {
-   "match_id": 999084,
-   "side": 1,
-   "ticker": "KXATPMATCH-26OCT08SVRETC-ETC",
-   "market_side": "no"
-  },
   {
    "match_id": 999282,
    "side": 2,
