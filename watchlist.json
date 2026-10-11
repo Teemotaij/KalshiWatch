@@ -1,6 +1,12 @@
 {
- "generated_at": "2026-10-11 07:37:10",
+ "generated_at": "2026-10-11 08:35:43",
  "picks": [
+  {
+   "match_id": -743173605,
+   "side": 1,
+   "ticker": "KXATPCHALLENGERMATCH-26OCT11UESJIN-UES",
+   "market_side": "no"
+  },
   {
    "match_id": 999314,
    "side": 2,
