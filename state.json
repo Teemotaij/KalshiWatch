@@ -341,7 +341,14 @@
  "999314/2": {
   "done": "finalized"
  },
- "999463/2": {},
+ "999463/2": {
+  "start": {
+   "detected_at": "2026-10-12T11:43:44.173830+00:00",
+   "start_at": "2026-10-12T11:34:00Z",
+   "window_move_c": 11.0,
+   "window_trades": 29
+  }
+ },
  "999553/2": {
   "done": "finalized",
   "start": {
