@@ -1,4 +1,17 @@
 {
- "generated_at": "2026-10-13 16:07:37",
- "picks": []
+ "generated_at": "2026-10-13 16:36:55",
+ "picks": [
+  {
+   "match_id": 1000896,
+   "side": 1,
+   "ticker": "KXATPCHALLENGERMATCH-26OCT13MATVUK-VUK",
+   "market_side": "no"
+  },
+  {
+   "match_id": 1000898,
+   "side": 1,
+   "ticker": "KXATPCHALLENGERMATCH-26OCT13DRADUC-DUC",
+   "market_side": "no"
+  }
+ ]
 }
