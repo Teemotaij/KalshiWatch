@@ -416,7 +416,13 @@
   }
  },
  "999839/2": {
-  "last_logged": "2026-10-13T14:01"
+  "last_logged": "2026-10-13T14:07",
+  "start": {
+   "detected_at": "2026-10-13T14:03:24.331652+00:00",
+   "start_at": "2026-10-13T13:53:00Z",
+   "window_move_c": 10.5,
+   "window_trades": 18
+  }
  },
  "999846/2": {
   "done": "finalized",
