@@ -408,6 +408,14 @@
    "window_trades": 11
   }
  },
+ "999791/1": {
+  "start": {
+   "detected_at": "2026-10-13T21:26:31.591254+00:00",
+   "start_at": "2026-10-13T21:06:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 156
+  }
+ },
  "999833/1": {
   "done": "finalized",
   "start": {
