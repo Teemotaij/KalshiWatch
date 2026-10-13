@@ -1,10 +1,22 @@
 {
- "generated_at": "2026-10-13 03:09:14",
+ "generated_at": "2026-10-13 08:46:26",
  "picks": [
+  {
+   "match_id": 999507,
+   "side": 1,
+   "ticker": "KXATPCHALLENGERMATCH-26OCT12WALCIL-CIL",
+   "market_side": "no"
+  },
   {
    "match_id": 999839,
    "side": 2,
    "ticker": "KXATPCHALLENGERMATCH-26OCT13KUMBUT-KUM",
+   "market_side": "no"
+  },
+  {
+   "match_id": 1000259,
+   "side": 1,
+   "ticker": "KXWTAMATCH-26OCT13SAKKOS-KOS",
    "market_side": "no"
   }
  ]
