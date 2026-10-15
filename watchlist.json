@@ -1,6 +1,12 @@
 {
- "generated_at": "2026-10-15 11:31:04",
+ "generated_at": "2026-10-15 11:41:58",
  "picks": [
+  {
+   "match_id": 1000980,
+   "side": 1,
+   "ticker": "KXATPCHALLENGERMATCH-26OCT15KUZDZU-DZU",
+   "market_side": "no"
+  },
   {
    "match_id": 1001000,
    "side": 1,
