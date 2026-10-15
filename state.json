@@ -68,8 +68,21 @@
    "window_trades": 32
   }
  },
+ "1000980/1": {
+  "buy": {
+   "at": "2026-10-15T11:48:00Z",
+   "tape_px": 70.0
+  },
+  "last_logged": "2026-10-15T11:50",
+  "start": {
+   "detected_at": "2026-10-15T11:45:30.774402+00:00",
+   "start_at": "2026-10-15T11:27:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 63
+  }
+ },
  "1001000/1": {
-  "last_logged": "2026-10-15T11:13"
+  "last_logged": "2026-10-15T11:48"
  },
  "995225/2": {
   "done": "finalized"
