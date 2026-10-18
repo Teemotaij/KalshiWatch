@@ -175,6 +175,18 @@
    "window_trades": 19
   }
  },
+ "1002383/1": {
+  "buy": {
+   "at": "2026-10-18T11:23:00Z",
+   "tape_px": 74.0
+  },
+  "start": {
+   "detected_at": "2026-10-18T11:34:09.965605+00:00",
+   "start_at": "2026-10-18T11:01:00Z",
+   "window_move_c": 20.0,
+   "window_trades": 36
+  }
+ },
  "995225/2": {
   "done": "finalized"
  },
