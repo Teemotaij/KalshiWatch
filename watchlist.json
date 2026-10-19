@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19 11:35:43",
+ "generated_at": "2026-10-19 12:46:31",
  "picks": [
   {
    "match_id": -1401616446,
@@ -23,12 +23,6 @@
    "match_id": 1002459,
    "side": 2,
    "ticker": "KXATPMATCH-26OCT18SONKOU-SON",
-   "market_side": "no"
-  },
-  {
-   "match_id": 1002686,
-   "side": 2,
-   "ticker": "KXATPMATCH-26OCT18CILBAS-CIL",
    "market_side": "no"
   },
   {
