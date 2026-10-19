@@ -13,6 +13,15 @@
    "window_trades": 52
   }
  },
+ "-1456387035/2": {
+  "last_logged": "2026-10-19T19:57",
+  "start": {
+   "detected_at": "2026-10-19T19:52:58.936520+00:00",
+   "start_at": "2026-10-19T19:31:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 49
+  }
+ },
  "-743173605/1": {
   "done": "finalized",
   "start": {
