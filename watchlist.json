@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20 12:01:29",
+ "generated_at": "2026-10-20 13:12:30",
  "picks": [
   {
    "match_id": 1002384,
@@ -23,12 +23,6 @@
    "match_id": 1003385,
    "side": 1,
    "ticker": "KXATPCHALLENGERMATCH-26OCT20MILGIU-GIU",
-   "market_side": "no"
-  },
-  {
-   "match_id": 1003498,
-   "side": 2,
-   "ticker": "KXATPCHALLENGERMATCH-26OCT20NAGSAN-NAG",
    "market_side": "no"
   },
   {
