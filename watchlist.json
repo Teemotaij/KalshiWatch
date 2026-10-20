@@ -1,6 +1,12 @@
 {
- "generated_at": "2026-10-20 04:56:06",
+ "generated_at": "2026-10-20 06:06:19",
  "picks": [
+  {
+   "match_id": 1002269,
+   "side": 1,
+   "ticker": "KXATPCHALLENGERMATCH-26OCT20HEWRIG-RIG",
+   "market_side": "no"
+  },
   {
    "match_id": 1002384,
    "side": 2,
