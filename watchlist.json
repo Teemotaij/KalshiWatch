@@ -1,16 +1,10 @@
 {
- "generated_at": "2026-10-21 13:13:28",
+ "generated_at": "2026-10-21 15:45:45",
  "picks": [
   {
    "match_id": 1002627,
    "side": 2,
    "ticker": "KXATPCHALLENGERMATCH-26OCT20MENABO-MEN",
-   "market_side": "no"
-  },
-  {
-   "match_id": 1003385,
-   "side": 1,
-   "ticker": "KXATPCHALLENGERMATCH-26OCT20MILGIU-GIU",
    "market_side": "no"
   },
   {
