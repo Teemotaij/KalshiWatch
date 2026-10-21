@@ -553,7 +553,14 @@
    "window_trades": 74
   }
  },
- "1003877/2": {},
+ "1003877/2": {
+  "start": {
+   "detected_at": "2026-10-21T17:10:04.662387+00:00",
+   "start_at": "2026-10-21T17:02:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 64
+  }
+ },
  "995225/2": {
   "done": "finalized"
  },
