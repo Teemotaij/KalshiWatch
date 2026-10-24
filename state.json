@@ -601,6 +601,14 @@
    "window_trades": 66
   }
  },
+ "1004884/2": {
+  "start": {
+   "detected_at": "2026-10-24T08:14:36.877332+00:00",
+   "start_at": "2026-10-24T07:29:00Z",
+   "window_move_c": 24.0,
+   "window_trades": 170
+  }
+ },
  "995225/2": {
   "done": "finalized"
  },
