@@ -1,12 +1,6 @@
 {
- "generated_at": "2026-10-25 13:11:20",
+ "generated_at": "2026-10-25 13:29:31",
  "picks": [
-  {
-   "match_id": 1005138,
-   "side": 1,
-   "ticker": "KXATPCHALLENGERMATCH-26OCT25PELPUR-PUR",
-   "market_side": "no"
-  },
   {
    "match_id": 1005171,
    "side": 1,
@@ -17,12 +11,6 @@
    "match_id": 1005186,
    "side": 2,
    "ticker": "KXATPMATCH-26OCT25HURFIL-HUR",
-   "market_side": "no"
-  },
-  {
-   "match_id": 1005253,
-   "side": 2,
-   "ticker": "KXATPCHALLENGERMATCH-26OCT25ECHKAO-ECH",
    "market_side": "no"
   },
   {
