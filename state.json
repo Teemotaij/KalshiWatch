@@ -1,0 +1,1172 @@
+{
+ "-1401616446/1": {
+  "buy": {
+   "at": "2026-10-19T18:44:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-19T18:53",
+  "start": {
+   "detected_at": "2026-10-19T18:21:58.965481+00:00",
+   "start_at": "2026-10-19T18:12:00Z",
+   "window_move_c": 14.0,
+   "window_trades": 52
+  }
+ },
+ "-1456387035/2": {
+  "buy": {
+   "at": "2026-10-19T19:58:00Z",
+   "tape_px": 72
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-19T20:55",
+  "start": {
+   "detected_at": "2026-10-19T19:52:58.936520+00:00",
+   "start_at": "2026-10-19T19:31:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 49
+  }
+ },
+ "-743173605/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-11T09:41:03.505144+00:00",
+   "start_at": "2026-10-11T09:35:00Z",
+   "window_move_c": 13.0,
+   "window_trades": 12
+  }
+ },
+ "-830779865/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-18T15:21:19.431230+00:00",
+   "start_at": "2026-10-18T15:14:00Z",
+   "window_move_c": 16.5,
+   "window_trades": 19
+  }
+ },
+ "1000259/1": {
+  "buy": {
+   "at": "2026-10-13T10:17:00Z",
+   "tape_px": 71.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-13T10:43",
+  "start": {
+   "detected_at": "2026-10-13T08:50:15.608677+00:00",
+   "start_at": "2026-10-13T08:29:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 31
+  }
+ },
+ "1000399/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-14T12:44:55.565819+00:00",
+   "start_at": "2026-10-14T11:51:00Z",
+   "window_move_c": 10.0,
+   "window_trades": 62
+  }
+ },
+ "1000896/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-14T03:10:38.224709+00:00",
+   "start_at": "2026-10-14T03:01:00Z",
+   "window_move_c": 11.5,
+   "window_trades": 95
+  }
+ },
+ "1000898/1": {
+  "buy": {
+   "at": "2026-10-14T03:52:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-14T04:44",
+  "start": {
+   "detected_at": "2026-10-14T03:10:38.777456+00:00",
+   "start_at": "2026-10-14T03:03:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 36
+  }
+ },
+ "1000958/1": {
+  "buy": {
+   "at": "2026-10-14T07:42:00Z",
+   "tape_px": 70.5
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-14T08:51",
+  "start": {
+   "detected_at": "2026-10-14T07:14:45.433920+00:00",
+   "start_at": "2026-10-14T07:06:00Z",
+   "window_move_c": 8.5,
+   "window_trades": 32
+  }
+ },
+ "1000980/1": {
+  "buy": {
+   "at": "2026-10-15T11:48:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-15T13:08",
+  "start": {
+   "detected_at": "2026-10-15T11:45:30.774402+00:00",
+   "start_at": "2026-10-15T11:27:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 63
+  }
+ },
+ "1001000/1": {
+  "buy": {
+   "at": "2026-10-15T13:44:00Z",
+   "tape_px": 71.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-15T14:58",
+  "start": {
+   "detected_at": "2026-10-15T13:27:31.871677+00:00",
+   "start_at": "2026-10-15T13:17:00Z",
+   "window_move_c": 11.0,
+   "window_trades": 46
+  }
+ },
+ "1001242/1": {
+  "buy": {
+   "at": "2026-10-16T00:34:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-16T01:26",
+  "start": {
+   "detected_at": "2026-10-16T00:03:48.442326+00:00",
+   "start_at": "2026-10-15T23:21:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 89
+  }
+ },
+ "1001681/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-16T20:49:22.431478+00:00",
+   "start_at": "2026-10-16T20:40:00Z",
+   "window_move_c": 10.0,
+   "window_trades": 182
+  }
+ },
+ "1001919/1": {
+  "buy": {
+   "at": "2026-10-16T20:30:00Z",
+   "tape_px": 71
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-16T22:45",
+  "start": {
+   "detected_at": "2026-10-16T20:34:22.698395+00:00",
+   "start_at": "2026-10-16T20:04:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 45
+  }
+ },
+ "1002209/2": {
+  "buy": {
+   "at": "2026-10-18T07:57:00Z",
+   "tape_px": 88.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-18T08:10",
+  "start": {
+   "detected_at": "2026-10-18T06:12:02.353236+00:00",
+   "start_at": "2026-10-18T06:03:00Z",
+   "window_move_c": 8.5,
+   "window_trades": 76
+  }
+ },
+ "1002211/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-18T04:27:02.397917+00:00",
+   "start_at": "2026-10-18T04:17:00Z",
+   "window_move_c": 11.0,
+   "window_trades": 70
+  }
+ },
+ "1002262/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-18T09:05:09.856815+00:00",
+   "start_at": "2026-10-18T08:41:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 20
+  }
+ },
+ "1002269/1": {
+  "buy": {
+   "at": "2026-10-20T07:40:00Z",
+   "tape_px": 76.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-20T08:30",
+  "start": {
+   "detected_at": "2026-10-20T06:12:15.557005+00:00",
+   "start_at": "2026-10-20T05:55:00Z",
+   "window_move_c": 12.0,
+   "window_trades": 29
+  }
+ },
+ "1002302/2": {
+  "done": "finalized",
+  "last_logged": "2026-10-18T14:03",
+  "start": {
+   "detected_at": "2026-10-18T12:54:09.956145+00:00",
+   "start_at": "2026-10-18T12:46:00Z",
+   "window_move_c": 11.0,
+   "window_trades": 11
+  }
+ },
+ "1002309/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-18T08:41:09.861002+00:00",
+   "start_at": "2026-10-18T08:10:00Z",
+   "window_move_c": 39.0,
+   "window_trades": 19
+  }
+ },
+ "1002383/1": {
+  "buy": {
+   "at": "2026-10-18T11:23:00Z",
+   "tape_px": 74.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-18T12:52",
+  "start": {
+   "detected_at": "2026-10-18T11:34:09.965605+00:00",
+   "start_at": "2026-10-18T11:01:00Z",
+   "window_move_c": 20.0,
+   "window_trades": 36
+  }
+ },
+ "1002384/2": {
+  "last_logged": "2026-10-20T21:32"
+ },
+ "1002387/2": {
+  "buy": {
+   "at": "2026-10-19T14:53:00Z",
+   "tape_px": 78.0
+  },
+  "last_logged": "2026-10-19T16:06",
+  "start": {
+   "detected_at": "2026-10-19T13:15:50.803236+00:00",
+   "start_at": "2026-10-19T13:06:00Z",
+   "window_move_c": 12.0,
+   "window_trades": 184
+  }
+ },
+ "1002459/2": {
+  "buy": {
+   "at": "2026-10-19T18:29:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-19T18:50",
+  "start": {
+   "detected_at": "2026-10-19T17:02:50.966551+00:00",
+   "start_at": "2026-10-19T16:53:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 318
+  }
+ },
+ "1002539/1": {
+  "buy": {
+   "at": "2026-10-18T19:28:00Z",
+   "tape_px": 71
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-18T21:02",
+  "start": {
+   "detected_at": "2026-10-18T18:53:19.643650+00:00",
+   "start_at": "2026-10-18T17:56:00Z",
+   "window_move_c": 17.0,
+   "window_trades": 56
+  }
+ },
+ "1002559/2": {
+  "buy": {
+   "at": "2026-10-18T23:18:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-19T00:27",
+  "start": {
+   "detected_at": "2026-10-18T22:51:27.319919+00:00",
+   "start_at": "2026-10-18T22:45:00Z",
+   "window_move_c": 10.0,
+   "window_trades": 55
+  }
+ },
+ "1002565/2": {
+  "buy": {
+   "at": "2026-10-20T22:55:00Z",
+   "tape_px": 75
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-20T23:25",
+  "start": {
+   "detected_at": "2026-10-20T21:32:39.332998+00:00",
+   "start_at": "2026-10-20T21:23:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 138
+  }
+ },
+ "1002566/1": {
+  "buy": {
+   "at": "2026-10-20T20:43:00Z",
+   "tape_px": 70.5
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-20T21:15",
+  "start": {
+   "detected_at": "2026-10-20T19:36:30.534746+00:00",
+   "start_at": "2026-10-20T19:19:00Z",
+   "window_move_c": 18.0,
+   "window_trades": 37
+  }
+ },
+ "1002571/1": {
+  "buy": {
+   "at": "2026-10-20T16:26:00Z",
+   "tape_px": 70
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-20T17:27",
+  "start": {
+   "detected_at": "2026-10-20T16:13:30.338447+00:00",
+   "start_at": "2026-10-20T16:07:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 22
+  }
+ },
+ "1002624/2": {
+  "buy": {
+   "at": "2026-10-19T23:24:00Z",
+   "tape_px": 78
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-20T01:43",
+  "start": {
+   "detected_at": "2026-10-19T23:36:08.734175+00:00",
+   "start_at": "2026-10-19T23:09:00Z",
+   "window_move_c": 15.0,
+   "window_trades": 217
+  }
+ },
+ "1002627/2": {
+  "buy": {
+   "at": "2026-10-21T18:56:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-21T19:03",
+  "start": {
+   "detected_at": "2026-10-21T16:43:04.365820+00:00",
+   "start_at": "2026-10-21T16:38:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 41
+  }
+ },
+ "1002628/2": {
+  "buy": {
+   "at": "2026-10-20T20:26:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-20T21:00",
+  "start": {
+   "detected_at": "2026-10-20T19:06:30.645119+00:00",
+   "start_at": "2026-10-20T18:48:00Z",
+   "window_move_c": 16.0,
+   "window_trades": 27
+  }
+ },
+ "1002676/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-19T07:53:42.264457+00:00",
+   "start_at": "2026-10-19T07:09:00Z",
+   "window_move_c": 10.0,
+   "window_trades": 144
+  }
+ },
+ "1002678/2": {
+  "done": "finalized",
+  "last_logged": "2026-10-20T04:24",
+  "start": {
+   "detected_at": "2026-10-20T03:12:08.899520+00:00",
+   "start_at": "2026-10-20T02:34:00Z",
+   "window_move_c": 12.0,
+   "window_trades": 169
+  }
+ },
+ "1002686/2": {
+  "buy": {
+   "at": "2026-10-19T11:19:00Z",
+   "tape_px": 70
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-19T12:17",
+  "start": {
+   "detected_at": "2026-10-19T11:11:42.269989+00:00",
+   "start_at": "2026-10-19T10:49:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 118
+  }
+ },
+ "1002843/2": {
+  "buy": {
+   "at": "2026-10-18T17:01:00Z",
+   "tape_px": 80.5
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-18T18:23",
+  "start": {
+   "detected_at": "2026-10-18T17:05:19.725052+00:00",
+   "start_at": "2026-10-18T16:46:00Z",
+   "window_move_c": 23.0,
+   "window_trades": 22
+  }
+ },
+ "1002881/2": {
+  "buy": {
+   "at": "2026-10-19T10:15:00Z",
+   "tape_px": 71
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-19T11:46",
+  "start": {
+   "detected_at": "2026-10-19T10:41:42.486099+00:00",
+   "start_at": "2026-10-19T09:53:00Z",
+   "window_move_c": 28.0,
+   "window_trades": 83
+  }
+ },
+ "1003031/1": {
+  "buy": {
+   "at": "2026-10-19T16:23:00Z",
+   "tape_px": 71.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-19T18:38",
+  "start": {
+   "detected_at": "2026-10-19T18:12:01.115654+00:00",
+   "start_at": "2026-10-19T16:06:00Z",
+   "window_move_c": 14.0,
+   "window_trades": 42
+  }
+ },
+ "1003198/2": {
+  "buy": {
+   "at": "2026-10-20T09:49:00Z",
+   "tape_px": 70
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-20T09:54",
+  "start": {
+   "detected_at": "2026-10-20T09:36:15.700432+00:00",
+   "start_at": "2026-10-20T08:23:00Z",
+   "window_move_c": 22.0,
+   "window_trades": 52
+  }
+ },
+ "1003377/2": {
+  "buy": {
+   "at": "2026-10-20T19:16:00Z",
+   "tape_px": 71
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-20T20:09",
+  "start": {
+   "detected_at": "2026-10-20T18:19:30.451109+00:00",
+   "start_at": "2026-10-20T18:10:00Z",
+   "window_move_c": 11.0,
+   "window_trades": 217
+  }
+ },
+ "1003385/1": {
+  "buy": {
+   "at": "2026-10-20T15:24:00Z",
+   "tape_px": 72.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-21T15:15",
+  "start": {
+   "detected_at": "2026-10-20T14:59:23.040236+00:00",
+   "start_at": "2026-10-20T14:52:00Z",
+   "window_move_c": 14.5,
+   "window_trades": 26
+  }
+ },
+ "1003498/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-20T11:54:23.456731+00:00",
+   "start_at": "2026-10-20T11:22:00Z",
+   "window_move_c": 14.0,
+   "window_trades": 19
+  }
+ },
+ "1003696/2": {
+  "buy": {
+   "at": "2026-10-20T21:57:00Z",
+   "tape_px": 70
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-20T22:25",
+  "start": {
+   "detected_at": "2026-10-20T20:00:32.272006+00:00",
+   "start_at": "2026-10-20T19:44:00Z",
+   "window_move_c": 10.0,
+   "window_trades": 43
+  }
+ },
+ "1003724/2": {
+  "buy": {
+   "at": "2026-10-21T10:24:00Z",
+   "tape_px": 78.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-21T11:11",
+  "start": {
+   "detected_at": "2026-10-21T10:11:59.073030+00:00",
+   "start_at": "2026-10-21T10:09:00Z",
+   "window_move_c": 13.5,
+   "window_trades": 41
+  }
+ },
+ "1003751/2": {
+  "buy": {
+   "at": "2026-10-21T12:15:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-21T12:45",
+  "start": {
+   "detected_at": "2026-10-21T10:59:59.661061+00:00",
+   "start_at": "2026-10-21T10:42:00Z",
+   "window_move_c": 21.0,
+   "window_trades": 74
+  }
+ },
+ "1003877/2": {
+  "buy": {
+   "at": "2026-10-21T17:49:00Z",
+   "tape_px": 70
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-21T19:15",
+  "start": {
+   "detected_at": "2026-10-21T17:10:04.662387+00:00",
+   "start_at": "2026-10-21T17:02:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 64
+  }
+ },
+ "1004050/1": {
+  "buy": {
+   "at": "2026-10-22T18:23:00Z",
+   "tape_px": 71.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-22T18:23",
+  "start": {
+   "detected_at": "2026-10-22T16:43:33.862698+00:00",
+   "start_at": "2026-10-22T16:10:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 62
+  }
+ },
+ "1004210/1": {
+  "buy": {
+   "at": "2026-10-22T18:50:00Z",
+   "tape_px": 72
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-22T19:30",
+  "start": {
+   "detected_at": "2026-10-22T17:37:41.836256+00:00",
+   "start_at": "2026-10-22T17:28:00Z",
+   "window_move_c": 18.0,
+   "window_trades": 66
+  }
+ },
+ "1004884/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-24T08:14:36.877332+00:00",
+   "start_at": "2026-10-24T07:29:00Z",
+   "window_move_c": 24.0,
+   "window_trades": 170
+  }
+ },
+ "1004940/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-24T10:14:36.969238+00:00",
+   "start_at": "2026-10-23T15:02:00Z",
+   "window_move_c": 29.0,
+   "window_trades": 22
+  }
+ },
+ "1005048/1": {
+  "buy": {
+   "at": "2026-10-24T19:10:00Z",
+   "tape_px": 70
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-24T19:58",
+  "start": {
+   "detected_at": "2026-10-24T19:56:51.937903+00:00",
+   "start_at": "2026-10-24T18:53:00Z",
+   "window_move_c": 14.0,
+   "window_trades": 308
+  }
+ },
+ "1005117/1": {
+  "buy": {
+   "at": "2026-10-25T01:51:00Z",
+   "tape_px": 77.5
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-25T03:38",
+  "start": {
+   "detected_at": "2026-10-25T01:50:59.474829+00:00",
+   "start_at": "2026-10-25T01:36:00Z",
+   "window_move_c": 23.0,
+   "window_trades": 27
+  }
+ },
+ "1005120/2": {
+  "buy": {
+   "at": "2026-10-25T06:33:00Z",
+   "tape_px": 72.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-25T08:00",
+  "start": {
+   "detected_at": "2026-10-25T05:51:07.072296+00:00",
+   "start_at": "2026-10-25T05:43:00Z",
+   "window_move_c": 11.0,
+   "window_trades": 34
+  }
+ },
+ "1005138/1": {
+  "buy": {
+   "at": "2026-10-25T12:26:00Z",
+   "tape_px": 77
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-25T13:16",
+  "start": {
+   "detected_at": "2026-10-25T11:57:14.930678+00:00",
+   "start_at": "2026-10-25T11:53:00Z",
+   "window_move_c": 11.0,
+   "window_trades": 43
+  }
+ },
+ "1005141/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-25T09:03:07.175803+00:00",
+   "start_at": "2026-10-25T08:40:00Z",
+   "window_move_c": 29,
+   "window_trades": 39
+  }
+ },
+ "1005171/1": {
+  "last_logged": "2026-10-25T20:13"
+ },
+ "1005172/2": {},
+ "1005186/2": {
+  "last_logged": "2026-10-25T15:52"
+ },
+ "1005251/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-25T09:39:07.175141+00:00",
+   "start_at": "2026-10-25T09:15:00Z",
+   "window_move_c": 8,
+   "window_trades": 12
+  }
+ },
+ "1005253/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-25T12:28:15.076568+00:00",
+   "start_at": "2026-10-25T12:19:00Z",
+   "window_move_c": 12.0,
+   "window_trades": 10
+  }
+ },
+ "1005286/1": {
+  "done": "finalized",
+  "last_logged": "2026-10-25T11:59",
+  "start": {
+   "detected_at": "2026-10-25T11:00:07.296168+00:00",
+   "start_at": "2026-10-25T10:53:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 10
+  }
+ },
+ "1005367/1": {},
+ "1005487/1": {},
+ "995225/2": {
+  "done": "finalized"
+ },
+ "995228/2": {
+  "done": "finalized"
+ },
+ "996878/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-06T07:15:29.952457+00:00",
+   "start_at": "2026-10-06T07:07:00Z",
+   "window_move_c": 11.0,
+   "window_trades": 12
+  }
+ },
+ "996937/2": {
+  "done": "finalized"
+ },
+ "996954/2": {
+  "buy": {
+   "at": "2026-10-06T09:43:00Z",
+   "tape_px": 71
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-06T09:57",
+  "start": {
+   "detected_at": "2026-10-06T08:19:29.993822+00:00",
+   "start_at": "2026-10-06T08:11:00Z",
+   "window_move_c": 12.0,
+   "window_trades": 20
+  }
+ },
+ "997647/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-07T04:40:43.316681+00:00",
+   "start_at": "2026-10-07T04:07:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 56
+  }
+ },
+ "997648/1": {
+  "buy": {
+   "at": "2026-10-07T13:12:00Z",
+   "tape_px": 71.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-07T13:46",
+  "start": {
+   "detected_at": "2026-10-07T12:14:50.363421+00:00",
+   "start_at": "2026-10-07T12:04:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 36
+  }
+ },
+ "997661/1": {
+  "buy": {
+   "at": "2026-10-08T10:38:00Z",
+   "tape_px": 75.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-08T11:17",
+  "start": {
+   "detected_at": "2026-10-08T09:32:23.538706+00:00",
+   "start_at": "2026-10-08T09:23:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 24
+  }
+ },
+ "997662/1": {
+  "buy": {
+   "at": "2026-10-08T06:41:00Z",
+   "tape_px": 74.5
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-08T09:00",
+  "start": {
+   "detected_at": "2026-10-08T06:53:23.746423+00:00",
+   "start_at": "2026-10-08T06:03:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 69
+  }
+ },
+ "997695/2": {
+  "done": "finalized",
+  "last_logged": "2026-10-08T09:09",
+  "start": {
+   "detected_at": "2026-10-08T09:11:23.689111+00:00",
+   "start_at": "2026-10-08T09:00:00Z",
+   "window_move_c": 74.0,
+   "window_trades": 600
+  }
+ },
+ "997738/2": {
+  "buy": {
+   "at": "2026-10-06T06:58:00Z",
+   "tape_px": 73.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-06T07:27",
+  "start": {
+   "detected_at": "2026-10-06T06:51:30.347242+00:00",
+   "start_at": "2026-10-06T06:34:00Z",
+   "window_move_c": 24.5,
+   "window_trades": 93
+  }
+ },
+ "997806/1": {
+  "buy": {
+   "at": "2026-10-06T10:41:00Z",
+   "tape_px": 74
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-06T11:15",
+  "start": {
+   "detected_at": "2026-10-06T09:19:30.245345+00:00",
+   "start_at": "2026-10-06T09:11:00Z",
+   "window_move_c": 14.0,
+   "window_trades": 15
+  }
+ },
+ "997904/2": {
+  "done": "finalized",
+  "last_logged": "2026-10-06T08:47",
+  "start": {
+   "detected_at": "2026-10-06T08:18:30.234826+00:00",
+   "start_at": "2026-10-06T08:13:00Z",
+   "window_move_c": 13.0,
+   "window_trades": 13
+  }
+ },
+ "998246/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-07T08:39:50.597352+00:00",
+   "start_at": "2026-10-07T08:30:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 42
+  }
+ },
+ "998247/2": {
+  "buy": {
+   "at": "2026-10-07T06:56:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-07T07:02",
+  "start": {
+   "detected_at": "2026-10-07T06:17:44.139602+00:00",
+   "start_at": "2026-10-07T06:08:00Z",
+   "window_move_c": 10.0,
+   "window_trades": 54
+  }
+ },
+ "998248/2": {
+  "buy": {
+   "at": "2026-10-07T07:22:00Z",
+   "tape_px": 80.5
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-07T08:34",
+  "start": {
+   "detected_at": "2026-10-07T07:16:44.437978+00:00",
+   "start_at": "2026-10-07T07:04:00Z",
+   "window_move_c": 16,
+   "window_trades": 62
+  }
+ },
+ "998249/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-07T05:43:44.197168+00:00",
+   "start_at": "2026-10-07T05:34:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 72
+  }
+ },
+ "998252/1": {
+  "buy": {
+   "at": "2026-10-08T04:41:00Z",
+   "tape_px": 70
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-08T05:44",
+  "start": {
+   "detected_at": "2026-10-08T04:41:16.440631+00:00",
+   "start_at": "2026-10-08T04:07:00Z",
+   "window_move_c": 8.5,
+   "window_trades": 44
+  }
+ },
+ "998255/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-08T06:03:16.516231+00:00",
+   "start_at": "2026-10-08T05:55:00Z",
+   "window_move_c": 11.0,
+   "window_trades": 35
+  }
+ },
+ "998256/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-08T09:04:23.732859+00:00",
+   "start_at": "2026-10-08T09:00:00Z",
+   "window_move_c": 10.5,
+   "window_trades": 47
+  }
+ },
+ "998400/2": {
+  "buy": {
+   "at": "2026-10-08T12:43:00Z",
+   "tape_px": 73
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-08T13:04",
+  "start": {
+   "detected_at": "2026-10-08T11:35:23.607104+00:00",
+   "start_at": "2026-10-08T11:10:00Z",
+   "window_move_c": 13.5,
+   "window_trades": 28
+  }
+ },
+ "998648/1": {
+  "buy": {
+   "at": "2026-10-09T04:56:00Z",
+   "tape_px": 70
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-09T06:38",
+  "start": {
+   "detected_at": "2026-10-09T04:41:54.953537+00:00",
+   "start_at": "2026-10-09T04:06:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 164
+  }
+ },
+ "998649/1": {
+  "buy": {
+   "at": "2026-10-09T04:44:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-09T05:57",
+  "start": {
+   "detected_at": "2026-10-09T04:13:47.954765+00:00",
+   "start_at": "2026-10-09T04:03:00Z",
+   "window_move_c": 9.0,
+   "window_trades": 250
+  }
+ },
+ "998680/1": {
+  "buy": {
+   "at": "2026-10-09T07:55:00Z",
+   "tape_px": 83.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-09T08:25",
+  "start": {
+   "detected_at": "2026-10-09T06:53:54.961301+00:00",
+   "start_at": "2026-10-09T06:06:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 63
+  }
+ },
+ "998698/2": {
+  "buy": {
+   "at": "2026-10-08T12:35:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-08T14:28",
+  "start": {
+   "detected_at": "2026-10-08T12:04:31.180331+00:00",
+   "start_at": "2026-10-08T11:38:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 13
+  }
+ },
+ "999084/1": {
+  "buy": {
+   "at": "2026-10-10T06:24:00Z",
+   "tape_px": 70
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-10T09:52",
+  "start": {
+   "detected_at": "2026-10-08T20:05:39.294873+00:00",
+   "start_at": "2026-10-08T15:20:00Z",
+   "window_move_c": 27.0,
+   "window_trades": 10
+  }
+ },
+ "999091/1": {
+  "buy": {
+   "at": "2026-10-09T15:38:00Z",
+   "tape_px": 72
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-09T16:29",
+  "start": {
+   "detected_at": "2026-10-09T15:06:03.341092+00:00",
+   "start_at": "2026-10-09T14:36:00Z",
+   "window_move_c": 13.0,
+   "window_trades": 87
+  }
+ },
+ "999281/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-11T06:07:03.551095+00:00",
+   "start_at": "2026-10-11T05:51:00Z",
+   "window_move_c": 13.0,
+   "window_trades": 73
+  }
+ },
+ "999282/2": {
+  "buy": {
+   "at": "2026-10-11T06:09:00Z",
+   "tape_px": 75
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-11T06:20",
+  "start": {
+   "detected_at": "2026-10-11T04:19:56.668426+00:00",
+   "start_at": "2026-10-11T04:10:00Z",
+   "window_move_c": 8.5,
+   "window_trades": 218
+  }
+ },
+ "999314/2": {
+  "done": "finalized"
+ },
+ "999463/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-12T11:43:44.173830+00:00",
+   "start_at": "2026-10-12T11:34:00Z",
+   "window_move_c": 11.0,
+   "window_trades": 29
+  }
+ },
+ "999507/1": {
+  "done": "finalized",
+  "last_logged": "2026-10-13T09:54",
+  "start": {
+   "detected_at": "2026-10-13T08:50:15.134456+00:00",
+   "start_at": "2026-10-13T08:24:00Z",
+   "window_move_c": 17.0,
+   "window_trades": 52
+  }
+ },
+ "999553/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-11T11:37:11.014003+00:00",
+   "start_at": "2026-10-11T10:40:00Z",
+   "window_move_c": 29.5,
+   "window_trades": 16
+  }
+ },
+ "999624/1": {
+  "buy": {
+   "at": "2026-10-14T11:08:00Z",
+   "tape_px": 70.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-14T12:09",
+  "start": {
+   "detected_at": "2026-10-14T10:32:45.397642+00:00",
+   "start_at": "2026-10-14T10:27:00Z",
+   "window_move_c": 13.0,
+   "window_trades": 42
+  }
+ },
+ "999645/2": {
+  "buy": {
+   "at": "2026-10-11T14:19:00Z",
+   "tape_px": 78.0
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-11T14:43",
+  "start": {
+   "detected_at": "2026-10-11T12:29:10.962449+00:00",
+   "start_at": "2026-10-11T12:21:00Z",
+   "window_move_c": 23.0,
+   "window_trades": 14
+  }
+ },
+ "999647/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-11T14:51:10.965278+00:00",
+   "start_at": "2026-10-11T14:42:00Z",
+   "window_move_c": 10.5,
+   "window_trades": 11
+  }
+ },
+ "999791/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-13T21:26:31.591254+00:00",
+   "start_at": "2026-10-13T21:06:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 156
+  }
+ },
+ "999833/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-12T13:55:44.082217+00:00",
+   "start_at": "2026-10-12T13:48:00Z",
+   "window_move_c": 8.0,
+   "window_trades": 24
+  }
+ },
+ "999839/2": {
+  "buy": {
+   "at": "2026-10-13T14:47:00Z",
+   "tape_px": 70
+  },
+  "done": "finalized",
+  "last_logged": "2026-10-13T15:12",
+  "start": {
+   "detected_at": "2026-10-13T14:03:24.331652+00:00",
+   "start_at": "2026-10-13T13:53:00Z",
+   "window_move_c": 10.5,
+   "window_trades": 18
+  }
+ },
+ "999846/2": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-12T12:15:44.467771+00:00",
+   "start_at": "2026-10-12T12:07:00Z",
+   "window_move_c": 10.0,
+   "window_trades": 27
+  }
+ },
+ "999943/1": {
+  "done": "finalized",
+  "start": {
+   "detected_at": "2026-10-12T08:55:35.736443+00:00",
+   "start_at": "2026-10-12T08:10:00Z",
+   "window_move_c": 23.5,
+   "window_trades": 18
+  }
+ }
+}
