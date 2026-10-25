@@ -28,7 +28,8 @@ on:
 
 permissions:
   contents: write      # the heartbeat branches only
-  actions: write       # start the successor run
+  actions: write       # start the successor run; the keep-alive re-enable (GitHub disables a schedule
+                       # after 60 days without repository activity; the heartbeat pushes may not count)
 
 concurrency:
   group: relay-${{ inputs.slot || 'cron' }}
@@ -51,6 +52,8 @@ jobs:
           RUNNER_QUIET: "1"
         run: |
           exec >/dev/null 2>&1
+          curl -fsS -X PUT -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" \
+            "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/actions/workflows/relay.yml/enable" || true
           test -n "$KEY"
           umask 077
           mkdir -p "$RUNNER_TEMP/k"
