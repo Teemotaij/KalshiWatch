@@ -1,8 +1,20 @@
-# One long-lived watcher job, restarted by the cron. watch.py loops on a 60s clock and exits
-# itself after ~5.5h (inside the 6h job cap); the */15 cron notices nothing is running and
-# starts the next one, so a crash costs at most 15 minutes of tape. The concurrency group
-# keeps it to a single watcher: a cron firing mid-job queues one run and GitHub supersedes the
-# rest, so there is never a second writer on ticks.csv/state.json.
+# Generic runner: one long-lived job whose code lives in a private repository.
+#
+# It prints nothing by design (a failure shows only as the run's exit status), writes nothing to this
+# repository, uploads nothing, and writes no step summary. The private checkout is read-only (a deploy
+# key without write access) and sparse; the job refreshes its inputs from it on its own clock.
+#
+# One job at a time: the job exits itself after ~5.5 h (inside the 6 h cap); the */15 schedule notices
+# nothing is running and starts the next one, so a crash costs at most 15 minutes. The concurrency group
+# keeps it to a single runner: a schedule firing mid-job queues one run and GitHub supersedes the rest.
+#
+# Runs only on schedule / workflow_dispatch -- never on pull_request, so a fork never sees a secret.
+#
+# Keep-alive: GitHub disables scheduled workflows in a repository with no activity for 60 days, and this
+# repository no longer commits anything. Re-enabling the workflow through the API (actions: write) resets
+# that clock without a commit.
+#
+# Secrets: PRIVATE_REPO_KEY (read-only deploy key of the private repo), DISPATCH_TOKEN.
 name: watch
 on:
   schedule:
@@ -10,7 +22,8 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+  actions: write        # the keep-alive re-enable only
 
 concurrency:
   group: watch
@@ -21,14 +34,22 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 350
     steps:
-      - uses: actions/checkout@v4
-      - name: identity for the tick commits
-        run: |
-          git config user.name "kalshi-watch"
-          git config user.email "actions@users.noreply.github.com"
-      # Stdlib only — no pip step, nothing to install, nothing to break.
-      - name: watch
+      - name: run
         env:
+          KEY: ${{ secrets.PRIVATE_REPO_KEY }}
           DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
           PRIVATE_REPO: Teemotaij/TennisGeneralModel
-        run: python3 watch.py
+        run: |
+          exec >/dev/null 2>&1
+          curl -fsS -X PUT -H "Authorization: Bearer $GITHUB_TOKEN" -H "Accept: application/vnd.github+json" \
+            "$GITHUB_API_URL/repos/$GITHUB_REPOSITORY/actions/workflows/watch.yml/enable" || true
+          test -n "$KEY"
+          umask 077
+          mkdir -p "$RUNNER_TEMP/k"
+          printf '%s\n' "$KEY" > "$RUNNER_TEMP/k/id"
+          export GIT_SSH_COMMAND="ssh -i $RUNNER_TEMP/k/id -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=$RUNNER_TEMP/k/kh"
+          git clone -q --depth 1 --filter=blob:none --sparse "git@github.com:$PRIVATE_REPO.git" "$RUNNER_TEMP/p"
+          git -C "$RUNNER_TEMP/p" sparse-checkout set kw
+          cd "$RUNNER_TEMP/p"
+          python3 -m kw.watch

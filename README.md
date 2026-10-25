@@ -1,12 +1,10 @@
 # KalshiWatch
 
-Polls Kalshi's **public** market-data API once a minute for the tennis markets listed in
-`watchlist.json`, logs per-minute tape medians to `ticks.csv`, and fires a
-`repository_dispatch` event at a private repository when simple tape conditions are met.
-All decisions, credentials and order flow live in the private repository; this repo holds
-no API keys and reads nothing that is not public on kalshi.com.
+A scheduled GitHub Actions runner for a job whose code lives in a private repository.
 
-- `watch.py` — the whole watcher; stdlib only.
-- `watchlist.json` — written by the private repository; which tickers to follow.
-- `ticks.csv` / `state.json` — the public tape log and the fired-event flags.
-- Secret `DISPATCH_TOKEN` — a fine-grained PAT that can only send dispatch events.
+- `.github/workflows/watch.yml` — starts the job; it prints nothing and writes nothing back here.
+- Secrets: `PRIVATE_REPO_KEY` (a read-only deploy key) and `DISPATCH_TOKEN` (a fine-grained token that
+  can only send `repository_dispatch` events).
+
+Earlier versions of this repository kept the job's code and data files here; they were removed on
+2026-10-25 and live only in the history.
