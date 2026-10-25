@@ -1,0 +1,62 @@
+# Generic runner: starts a long-running job kept in a private repository and keeps a heartbeat.
+# It prints nothing by design (a failure shows only as an exit code) and commits nothing here except a bare
+# UTC timestamp and run id on the `heartbeat`, `hb-a` and `hb-b` branches (single force-pushed commits, no history).
+#
+# Slots a/b: each run lasts ~5.5 h and starts its successor in the other slot before it ends, so there is
+# never a gap; the 15-minute schedule only restarts a runner that died and exits at once otherwise.
+# A successor gets `req` (when it was asked for): a run that starts long after its request -- one that sat queued
+# behind the slot's previous run -- exits at once instead of lingering as a second runner.
+# Runs only on schedule / workflow_dispatch -- never on pull_request, so a fork never sees a secret.
+#
+# The private checkout holds a single entry file; that file fetches whatever else its job needs.
+#
+# Secrets: PRIVATE_REPO_KEY (read-only deploy key of the private repo), DISPATCH_TOKEN, LIVETENNIS_API_KEY.
+name: relay
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "a or b (empty = restart check)"
+        required: false
+        default: ""
+      req:
+        description: "internal: when the previous run asked for this one (UTC)"
+        required: false
+        default: ""
+
+permissions:
+  contents: write      # the heartbeat branches only
+  actions: write       # start the successor run
+
+concurrency:
+  group: relay-${{ inputs.slot || 'cron' }}
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - name: run
+        env:
+          KEY: ${{ secrets.PRIVATE_REPO_KEY }}
+          DISPATCH_TOKEN: ${{ secrets.DISPATCH_TOKEN }}
+          LIVETENNIS_API_KEY: ${{ secrets.LIVETENNIS_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          SLOT: ${{ inputs.slot }}
+          REQ: ${{ inputs.req }}
+          TRIGGER: ${{ inputs.slot && 'handoff' || 'restart' }}
+          RUNNER_QUIET: "1"
+        run: |
+          exec >/dev/null 2>&1
+          test -n "$KEY"
+          umask 077
+          mkdir -p "$RUNNER_TEMP/k"
+          printf '%s\n' "$KEY" > "$RUNNER_TEMP/k/id"
+          export GIT_SSH_COMMAND="ssh -i $RUNNER_TEMP/k/id -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=$RUNNER_TEMP/k/kh"
+          git clone -q --depth 1 --filter=blob:none --sparse git@github.com:Teemotaij/TennisGeneralModel.git "$RUNNER_TEMP/p"
+          git -C "$RUNNER_TEMP/p" sparse-checkout set --no-cone /ops/relay_entry.py
+          cd "$RUNNER_TEMP/p"
+          python3 ops/relay_entry.py --quiet --slot "${SLOT:-a}" --trigger "$TRIGGER"
