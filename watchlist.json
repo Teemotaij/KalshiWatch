@@ -1,10 +1,16 @@
 {
- "generated_at": "2026-10-25 05:17:58",
+ "generated_at": "2026-10-25 06:51:32",
  "picks": [
   {
    "match_id": 1005120,
    "side": 2,
    "ticker": "KXATPCHALLENGERMATCH-26OCT24LANTAK-LAN",
+   "market_side": "no"
+  },
+  {
+   "match_id": 1005253,
+   "side": 2,
+   "ticker": "KXATPCHALLENGERMATCH-26OCT25ECHKAO-ECH",
    "market_side": "no"
   }
  ]
