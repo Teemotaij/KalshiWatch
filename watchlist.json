@@ -1,6 +1,12 @@
 {
- "generated_at": "2026-10-25 10:51:58",
+ "generated_at": "2026-10-25 11:13:27",
  "picks": [
+  {
+   "match_id": 1005138,
+   "side": 1,
+   "ticker": "KXATPCHALLENGERMATCH-26OCT25PELPUR-PUR",
+   "market_side": "no"
+  },
   {
    "match_id": 1005253,
    "side": 2,
