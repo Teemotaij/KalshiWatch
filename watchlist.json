@@ -1,0 +1,35 @@
+{
+ "generated_at": "2026-10-25 19:17:04",
+ "picks": [
+  {
+   "match_id": 1005171,
+   "side": 1,
+   "ticker": "KXATPMATCH-26OCT25KYMRIN-RIN",
+   "market_side": "no"
+  },
+  {
+   "match_id": 1005172,
+   "side": 2,
+   "ticker": "KXATPMATCH-26OCT25DJOHUM-DJO",
+   "market_side": "no"
+  },
+  {
+   "match_id": 1005186,
+   "side": 2,
+   "ticker": "KXATPMATCH-26OCT25HURFIL-HUR",
+   "market_side": "no"
+  },
+  {
+   "match_id": 1005367,
+   "side": 1,
+   "ticker": "KXATPCHALLENGERMATCH-26OCT25WOEFEN-FEN",
+   "market_side": "no"
+  },
+  {
+   "match_id": 1005487,
+   "side": 1,
+   "ticker": "KXWTAMATCH-26OCT25SASBAR-BAR",
+   "market_side": "no"
+  }
+ ]
+}
